@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9e7fd;
+            margin: 0;
+            padding: 40px;
+        }
+        .grid {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card h3 {
+            margin: 0 0 10px;
+            color: #2c3e50;
+        }
+        .card p {
+            margin: 0 0 15px;
+            color: #555;
+        }
+        .card a {
+            color: #6c3ef8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="card">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg" alt="PUBG Mobile">
+            <div class="card-content">
+                <h3>PUBG Mobile Unbanned in Bangladesh</h3>
+                <p>After 4 years, PUBG Mobile is finally unbanned in Bangladesh, reigniting the esports scene.</p>
+                <a href="#">Read more →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn.siasat.com/wp-content/uploads/2022/03/Free_Fire.jpg" alt="Free Fire">
+            <div class="card-content">
+                <h3>Free Fire's Rise in South Asia</h3>
+                <p>Garena's Free Fire is dominating the battle royale genre with its fast-paced mobile gameplay.</p>
+                <a href="#">Read more →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://insider-gaming.com/wp-content/uploads/2024/12/delta-force-single-player.jpg" alt="Delta Force">
+            <div class="card-content">
+                <h3>Delta Force</h3>
+                <p>The iconic tactical shooter is back with revamped graphics and new missions.</p>
+                <a href="#">Read more →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1938090/header.jpg" alt="Call of Duty">
+            <div class="card-content">
+                <h3>Call of Duty: Evolution of a Franchise</h3>
+                <p>Explore how Call of Duty has shaped first-person shooters through generations.</p>
+                <a href="#">Read more →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co480t.webp" alt="Genshin Impact">
+            <div class="card-content">
+                <h3>Genshin Impact’s Global Success</h3>
+                <p>This open-world RPG continues to win hearts with stunning visuals and deep lore.</p>
+                <a href="#">Read more →</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

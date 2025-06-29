@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iBlog</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    #membership {
+      display: flex;
+      padding: 10px 20px;
+      border-radius: 50px;
+      color: darkblue;
+      text-decoration: none;
+      background-color: transparent;
+    }
+
+    #membership:hover {
+      color: blueviolet;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <a target="_blank" href="ourstory.html" class="texts">
+        <p>Our Story</p>
+      </a>
+
+      <a href="membership.html" id="membership">
+        <p>Membership</p>
+      </a>
+
+      <div id="categories-dropdown">
+        <a href="#" id="categories">
+          <p>Categories</p>
+          <i class="ri-arrow-down-s-line"></i>
+        </a>
+        <div class="dropdown-content">
+          <a href="Sports.html" class="dropdown-item">Sports</a>
+          <a href="Politics.html" class="dropdown-item">Politics</a>
+          <a href="Education.html" class="dropdown-item">Education</a>
+          <a href="Religion.html" class="dropdown-item">Religion</a>
+          <a href="gameing.html" class="dropdown-item">Gaming</a>
+          <a href="international.html" class="dropdown-item">International</a>
+        </div>
+      </div>
+
+      <a href="#featured" class="texts">
+        <p>Latest post</p>
+      </a>
+      <!-- 
+      <div class="texts">
+        <a style="text-decoration: none;" href="PopularPost.html" id="Post">Post</a> 
+      </div> -->
+      <a href="PopularPost.html" class="texts">
+        <p>Post</p>
+      </a>
+
+
+      <a href="PrivacyPolicy.html" class="texts">
+        <p>Privacy Policy</p>
+      </a>
+      <a href="faqs.html" class="texts">
+        <p>FAQs</p>
+      </a>
+
+
+      <div id="login">
+        <i class="ri-user-3-fill"></i>
+        <p><a style="text-decoration: none;" href="login.html">Login</a></p>
+      </div>
+    </div>
+
+    <div id="fakeheader"></div>
+
+    <div id="page1">
+      <div id="content">
+        <div id="box1">
+          <h1>iBlog</h1>
+          <p>Human stories & ideas</p>
+          <div id="btns">
+            <div id="btn1"><a style="text-decoration: none;" href="login.html">
+                <p>Start Reading</p>
+              </a></div>
+          </div>
+        </div>
+        <div id="box2">
+          <img src="3123463.jpg" alt="Blog illustration" width="400px">
+        </div>
+      </div>
+      <div id="heading">
+        <h1>A place to read, write, and deepen your understanding</h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="page2">
+    <div id="content">
+      <h2 class="section-title" id="featured">Featured Articles</h2>
+      <div class="card-container">
+
+        <div class="blog-card">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1705883064008-45f6d0433e69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0"
+            alt="Article images">
+          <h3>The Power of Storytelling</h3>
+          <p>Discover how personal stories can inspire, influence, and impact communities globally.</p>
+          <a href="#">Read more →</a>
+        </div>
+
+        <div class="blog-card">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1726718541864-f47b55076786?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0"
+            alt="Article image">
+          <h3>Building Mindful Habits</h3>
+          <p>Explore practical approaches to cultivate mindfulness and improve your daily life.</p>
+          <a href="#">Read more →</a>
+        </div>
+
+        <div class="blog-card">
+          <img
+            src="https://images.unsplash.com/photo-1651841443045-6c02d05a4ad2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0"
+            alt="Article image">
+          <h3>Tech & Human Connection</h3>
+          <p>Understand how technology is reshaping the way we connect, empathize, and engage.</p>
+          <a href="#">Read more →</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="footer-center-text">
+        <p>CODE IS POETRY</p>
+      </div>
+      <div class="footer-icons">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-twitter-x-line"></i>
+        <i class="ri-instagram-line"></i>
+        <i class="ri-linkedin-box-fill"></i>
+        <i class="ri-youtube-fill"></i>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(83, 113, 114);
+}
+.colorfont{
+    color: blue;
+    text-align: center;
+    font-weight: bolder;
+}
+h2{
+    margin: 10px;
+    padding: 10px;
+    background-color: chocolate;
+}
