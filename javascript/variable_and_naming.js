@@ -1,29 +1,29 @@
 //Topic -> variable and naming, updation of variables, increment
-// a =10.6;
-// console.log(a+3);
+a =10.6;
+console.log(a+3);
 
-// x="Mustafiz";
-// console.log(x);
+x="Mustafiz";
+console.log(x);
 
-// a=12
-// console.log(a);
-// a=20.7;
-// console.log(a);
+a=12
+console.log(a);
+a=20.7;
+console.log(a);
 
-// a="fatah";
-// console.log(a);
+a="fatah";
+console.log(a);
 
-// b=5;
-// console.log(b);
-// // b=b+4;
-// b=b++; //post increment por b er value assign kore disi abar b=5 output 5 ashbe increment overwrite hoyea gese
-// console.log(b)
-// b++;
-// console.log(b);
-// console.log(++b);
-// console.log(b++);
-// b *= 3.14
-// console.log(b);//8*3.14
+b=5;
+console.log(b);
+b=b+4;
+b=b++; //post increment por b er value assign kore disi abar b=5 output 5 ashbe increment overwrite hoyea gese
+console.log(b)
+b++;
+console.log(b);
+console.log(++b);
+console.log(b++);
+b *= 3.14
+console.log(b);//8*3.14
 
 
 //Topic -> consolelog(a,b)
