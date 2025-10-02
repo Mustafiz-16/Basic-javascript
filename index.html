@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body>
+  <!-- IIFE arrow funtion -->
+    <label onclick="(()=> {alert('hello')})()">gdl</label> 
+    <script src="object_to_array_destructing.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Cat Facts</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    #fact-container {
+      margin-top: 20px;
+      padding: 15px 20px;
+      background-color: #ffe4c4;
+      border-radius: 10px;
+      max-width: 600px;
+      text-align: center;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      background-color: #ff7f50;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #ff4500;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Random Cat Facts 🐱</h1>
+  <div id="fact-container">Click the button to get a cat fact!</div>
+  <button id="get-fact">Get Random Fact</button>
+
+  <script>
+    const URL = "https://catfact.ninja/facts?limit=1"; // limit=1 for single fact
+    const factContainer = document.getElementById("fact-container");
+    const btn = document.getElementById("get-fact");
+
+    const getRandomFact = async () => {
+      try {
+        factContainer.textContent = "Fetching fact... 🐾";
+        const response = await fetch(URL);
+        const data = await response.json();
+        // data.data is an array of facts
+        factContainer.textContent = data.data[0].fact;
+      } catch (err) {
+        factContainer.textContent = "Error fetching fact. 😿";
+        console.error(err);
+      }
+    }
+
+    // Call function on button click
+    btn.addEventListener("click", getRandomFact);
+  </script>
+</body>
+</html> -->
+
+
