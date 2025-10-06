@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- double qoutes er moddhe string likhte amra single quote use kormu -->
+    <button onclick="console.log('button was clicked'); alert('hello')">click me</button> 
+    <!-- ekta button click korate ekta event generate hoitase r event generate hoya te  amra kicho kaj koraite pari ei je kaj kortesi eita ke bole programming e event handling -->
+     <button ondblclick="console.log('button was click two times')">click me 2 times!</button>
+    <div onmouseover="console.log('You are in inside dev')" >This is a box</div>
+
+
+    <!-- html er moddhe je even gula handle korsi eita ke bole hocche Inline event handling but this is not a good way of handling events eite amader html code onekta bulky hoye jai-->
+     <!-- that's why js er moddhe amra event handling kori-->
+
+
+    <button id="btn1">click one time!</button>
+    <div class="newdiv">Hello, this is another box</div>
+
+    <!-- html e ek page 2ta same id thaka jai nah tai eikkhane btn1 ta kaj kortese nah karon eikhane ondbclick kaj kortese kinto class er khetere problem nai-->
+    <button ondblclick="console.log('button was click two times')" id="btn1">click me 2 times!</button> 
+
+    <button ondblclick="console.log('button was click two times')" class="hello">click me 2 times!</button> 
+
+    <button ondblclick="console.log('button was click two times')" class="hello">click me 2 times!</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
